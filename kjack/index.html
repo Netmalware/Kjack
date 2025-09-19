@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kjack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://cdn0.iconfinder.com/data/icons/casino-15/512/as447_7-512.png" type="image/x-icon">
+</head>
+<body>
+    <main class="casino-table">
+        
+        <div class="game-messages" id="game-messages">
+            <span>Faça sua jogada!</span>
+        </div>
+
+        <div class="hand-container dealer-hand-container">
+            <h2 class="hand-label">Dealer (<span id="dealer-score">0</span>)</h2>
+            <div id="dealer-hand" class="hand"></div>
+        </div>
+
+        <div class="hand-container player-hand-container">
+            <h2 class="hand-label">Você (<span id="player-score">0</span>)</h2>
+            <div id="player-hand" class="hand"></div>
+        </div>
+
+        <div class="controls">
+            <button id="hit-btn" class="classic-btn">Hit</button>
+            <button id="stand-btn" class="classic-btn">Stand</button>
+            <button id="restart-btn" class="classic-btn restart-btn">Restart</button>
+        </div>
+
+        <footer class="rights-footer">
+            Kevin Moreira © - 2025
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
